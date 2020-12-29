@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+
+.invoiceContainer{
+  width: 96%;
+  height: 800px;
+  background: white;
+  padding: 10px;
+  margin: 20px auto;
+
+}
+.invoiceformheader{
+  height: 150px;
+  width: 100%;
+  border-bottom: 1px solid #6C6490;
+  display: flex;
+  flex-direction: row;
+}
+.SystemInfo1 h3{
+  font-family: 'Bungee Inline', cursive;
+}
+.SystemInfo1,.SystemInfo3{
+  flex: .5;
+}
+.SystemInfo2{
+  flex:1;
+}
+
+.invoice-basic-info{
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Overpass', sans-serif;
+}
+.title{
+  flex:3;
+  display: flex;
+  align-items: center;
+}
+.item{
+  flex:0.3;
+  display: flex;
+  align-items: center;
+}
+.invoice-room-info{
+  height: 40px;
+  width: 100%;
+  background-color: #4567;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.invoice-item-info{
+  height: 40px;
+  width: 100%;
+  background-color: #c3cae452;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+}
+.btn{
+  background-color: #4567;
+}
+
+.invoices-list{
+  width: 98%;
+  margin:10px auto;
+  border-radius: 10px;
+  overflow: hidden;
+  padding-bottom: 20px;
+  background-color: white;
+}
+.listheader{
+  height: 100px;
+  width: 100%;
+  background-color: #B9D4DB;
+}
+.list-content{
+    width: 100%;
+    padding: 10px;
+}
+.booking-content{
+  width: 98%;
+  margin:20px auto;
+  height: 800px;
+  background-color:white;
+}

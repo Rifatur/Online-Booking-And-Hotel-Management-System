@@ -1,0 +1,70 @@
+.Roomlist{
+  width: 100%;
+  height: 100%;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.res-roomcard{
+  height: 70px;
+  width: 100%;
+  background-color: #c3cae452;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.res-roomcard img{
+  height: 70px;
+  width: 150px;
+  padding: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.res-roomcard span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-info,.btn-warning{
+  padding:1px 3px;
+  font-family: 'Fredericka the Great', cursive;
+  font-weight: 200;
+  background-color: #c3cae452;
+  border: none;
+  margin-bottom: 10px;
+}
+.res-roomcard .name{
+  flex: 1;
+  height: 100%;
+  padding: 5px;
+}
+.res-roomcard .price{
+  flex: .4;
+  height: 100%;
+  padding: 5px;
+}
+.res-roomcard .action{
+  height: 100%;
+  padding: 5px;
+  margin-right: 20px;
+}
+.invoice{
+  display: block;
+  text-decoration: none;
+  padding: 5px 20px;
+  background-color: #4567;
+  color:white;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+  margin-top: 20px;
+}
+.ig{
+  background-color: #789;
+  margin-right:10px;
+}
+#updatestate{
+  display:none;
+}

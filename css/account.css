@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+.account-cover{
+  height: 200px;
+  min-height: 200px;
+  width: 100%;
+  background-color: #5676;
+}
+
+.myaccount{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.Account-nav{
+  width: 250px;
+  display: flex;
+  height: 700px;
+  background-color:#f5f6fa;
+  flex-direction: column;
+}
+
+.Account-nav a{
+  padding: 5px 20px;
+  display: block;
+  color: #484b4d;
+  font-size: 20px;
+  font-family: 'Righteous', cursive;
+  text-decoration: none;
+
+}
+.Account-nav a:hover{
+  background-color: #c3cae452;
+}
+
+.main-container{
+  flex: 2;
+}
+.employeeBox{
+    height: 150px;
+    width: 98%;
+    border-radius: 10px;
+    margin:10px auto;
+    background-color: #D3E7EE;
+    position: relative;
+}
+.employeeBox img{
+    position: absolute;
+    height: 130%;
+    bottom:-16%;
+    right: 0;
+}
+.userName{
+  font-size: 40px;
+  font-family: 'Viaoda Libre', cursive;
+  position: absolute;
+  font-weight: 700;
+  top:20px;
+  left:2%;
+}
+.quotes{
+  font-size: 20px;
+  font-family: 'Viaoda Libre', cursive;
+  position: absolute;
+  bottom:20%;
+  left:2%;
+}

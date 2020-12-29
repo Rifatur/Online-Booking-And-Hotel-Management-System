@@ -1,0 +1,314 @@
+.employeeBox{
+    height: 150px;
+    width: 98%;
+    border-radius: 10px;
+    margin:20px auto;
+    background-color: #D3E7EE;
+    position: relative;
+}
+.employeeBox img{
+    position: absolute;
+    height: 130%;
+    bottom:-16%;
+    right: 0;
+}
+.userName{
+  font-size: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+  position: absolute;
+  top:20px;
+  left:2%;
+}
+.input-group-text {
+  background-color:  #D3E7EE;
+  font-family: 'Josefin Sans', sans-serif;
+  border: none;
+}
+.input-group-text .fas{
+  color: #111;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+.form-control {
+  border: 2px solid  #D3E7EE;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.employeetable{
+  width: 98%;
+  margin:20px auto ;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+
+.employeeform-container{
+  width: 98%;
+  margin:20px auto ;
+  background-color:white;
+    border-radius: 10px;
+}
+.container-header{
+  height: 80px;
+  width: 100%;
+}
+.employeeform{
+  width: 96%;
+  margin:20px auto ;
+}
+.employeeform li{
+   font-family: 'Josefin Sans', sans-serif;
+   display: block;
+   list-style: none;
+   background-color: #D3E7EE;
+   margin-top: 10px;
+   padding:10px 10px;
+   font-size: 18px;
+}
+.btn-primary {
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #D3E7EE, #f2994a, #D3E7EE);
+    -webkit-box-shadow: 1px -1px 20px 0px rgba(211,231,238,1);
+    -moz-box-shadow: 1px -1px 20px 0px rgba(211,231,238,1);
+    box-shadow: 1px -1px 20px 0px rgba(211,231,238,1);
+    transition: 300ms ease-in;
+    border: none;
+}
+.employeeform>.btn:active:focus, .btn:focus {
+  outline: none !important;
+  -webkit-box-shadow: 1px -1px 20px 0px rgba(242,153,74,1);
+  -moz-box-shadow: 1px -1px 20px 0px rgba(242,153,74,1);
+  box-shadow: 1px -1px 20px 0px rgba(242,153,74,1);
+
+}
+
+
+.empProfileUI{
+  width:98%;
+  margin:20px auto ;
+  background-color:white;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+.proheader{
+  height: 210px;
+  width: 98%;
+  margin:auto;
+  display: flex;
+  flex-direction:row;
+}
+.emppic{
+  width: 200px;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.emppic img{
+  height: 90%;width: 90%;border-radius: 10px;
+}
+.empbasic{
+  flex:3;
+  display: flex;
+  align-items: center;
+}
+.personal-info{
+  height: 90%;
+  flex: 2;
+  display: flex;
+  position: relative;
+  font-family: 'Josefin Sans', sans-serif;
+  flex-direction: column;
+}
+.personal-info li{
+  width: 150px;
+  list-style: none;
+  background-color: #CFF4D2;
+  bottom:2px;
+  border-radius: 10px;
+  transition: 200ms  ease-in;
+  position: absolute;
+
+
+}
+ .btn-outline-info {
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem
+}
+.personal-info li:hover{
+ background-color: #56C596;
+ -webkit-box-shadow: 1px -1px 20px 0px rgba(211,231,238,1);
+ -moz-box-shadow: 1px -1px 20px 0px rgba(211,231,238,1);
+ box-shadow: 1px -1px 20px 0px rgba(211,231,238,1);
+}
+.personal-info li a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 5px;
+  font-size: 20px;
+  text-transform: capitalize;
+   font-family: 'Josefin Sans', sans-serif;
+   text-decoration: none;
+   color: #000000;
+}
+ h3{
+  text-transform: capitalize;
+  position: relative;
+}
+
+.official-info{
+  height: 90%;
+  flex: 1;
+}
+
+.navbar{
+  height: 100%;
+  width: 100%;
+  flex:1;
+}
+.navbar ul{
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction:column;
+  width: 100%;
+}
+.navbar ul li{
+  flex: 1;
+  background-color: #94B0B7;
+  margin-bottom:2px;
+  transition: 200ms  ease-in;
+}
+.navbar ul li:hover{
+  background-color: #7697A0;
+}
+.navbar ul li a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 5px;
+  font-size: 20px;
+  text-transform: capitalize;
+   font-family: 'Josefin Sans', sans-serif;
+   text-decoration: none;
+   color: white;
+}
+#contentbox{
+  width: 98%;
+  margin:10px auto;
+}
+.emp-info{
+  width: 98%;;
+  margin:10px auto;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.emp-info li{
+   font-family: 'Josefin Sans', sans-serif;
+   display: block;
+   list-style: none;
+   text-transform: capitalize;
+   font-size: 26px;
+}
+.info-div{
+display: flex;
+flex-direction: row;
+width: 100%;
+
+}
+.info-div-1,.info-div-2{
+  flex: 1;
+}
+.emp-info .form-group {
+    margin-bottom: .4rem;
+    margin-top: .6rem;
+}
+.info{
+  display: flex;
+  flex-direction: row;
+}
+.info li{
+   font-family: 'Josefin Sans', sans-serif;
+   display: block;
+   list-style: none;
+   text-transform: capitalize;
+   font-size: 17px;
+}
+.title{
+  flex:1;
+  text-align: justify;
+}
+.title-value{
+  flex: 2;
+}
+/* Task Table*/
+.taskBox{
+    height: 150px;
+    width: 98%;
+    border-radius: 10px;
+    margin:20px auto;
+    background-color: #B9D4DB;
+    position: relative;
+}
+.taskBox img{
+    position: absolute;
+    height: 120%;
+    bottom:-8%;
+    right: 0;
+}
+.taskstable{
+  width:98%;
+  margin:2rem auto;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 10px;
+}
+.tableHeader{
+  height: 60px;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Fredericka the Great', cursive;
+}
+.taskFormContainer{
+  width: 98%;
+  border-radius: 10px;
+  height:600px;
+  margin:20px auto;
+
+}
+.taskform{
+  width:98%;
+  margin:1rem auto;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 10px;
+}
+.formHeader{
+  height: 60px;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formquotes{
+  font-size: 30px;
+  font-family: 'Bad Script', cursive;
+  font-weight: 500;
+  color: #B9D4DB;
+
+}
+.taskform .input-group{
+  margin-bottom: .7rem;
+}

@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+*,html{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-family: 'Righteous', cursive;
+    text-decoration: none;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link {
+    font-size: 20px;
+    color: black;
+    padding-left: 2rem;
+    font-family: 'Righteous', cursive;
+}
+.btn{
+    margin-top: 5px;
+    
+}
+
+.Slider{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.SliderConatainer{
+    height: 650px;
+    width: 70%;
+
+}
+.slidercontailertext{
+    height: 650px;
+    width: 30%;
+}
+.slidercontailertext h2{
+    font-size: 120px;
+    font-family: 'Carter One', cursive;
+
+}
+.info-wrapper{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.info-wrapper-col{
+    
+    width: 100%;
+
+}
+.info-wrapper-box{
+    width: 1300px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.info-wrapper-box-items{
+    height: 150px;
+    width: 310px;
+    background-color:whitesmoke;
+    -webkit-transition:  200ms ease-out;
+    -moz-transition:   200ms ease-out;
+    -o-transition:  200ms  ease-out;
+    transition:  200ms ease-out;
+}
+.info-wrapper-box-items:hover{
+    transform: scale(1.1);
+}
+.Service-container{
+    width: 100%;
+
+}
+.Service-container-wrap{
+    width: 1300px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Service-wrapper-box-items{
+    height: 500px;
+    width: 640px;
+    background-color:whitesmoke;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.Service-wrapper-box-items img{
+    height: 100%;
+    width: 100%;
+    -webkit-transition: 200ms ease-out;
+    -moz-transition: 200ms ease-out;
+    -o-transition: 200ms ease-out;
+    transition: 200ms ease-out;
+}
+.Service-wrapper-box-items:hover img{
+    transform: scale(1.1);
+    opacity: .2;
+}
+.box-details{
+    position: absolute;
+    bottom:2rem;
+    left: 2rem;
+    color: white;
+    overflow: hidden;
+    width: 500px;
+ 
+}
+.info-box{
+    transition: all .7s;
+    -webkit-transition: all .7s;
+    transform: translateX(-12rem);
+}
+
+.Service-wrapper-box-items:hover  .info-box{
+    color: black;
+    transform: translateX(.5rem);
+    text-decoration: none;
+}
+
+.bottom-wrapper{
+    height: 450px;
+    width: 100%;
+    background-color: black;
+}

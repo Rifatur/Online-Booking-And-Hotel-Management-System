@@ -1,0 +1,312 @@
+:root{
+     --bg-three:#d6dbe0;
+}
+.roomBox{
+    height: 150px;
+    width: 98%;
+    border-radius: 10px;
+    margin:20px auto;
+    background-color: #e4dafd;
+    position: relative;
+}
+
+.roomBox img{
+    position: absolute;
+    position: absolute;
+    height: 100%;
+    bottom:-6%;
+    right: 0;
+}
+.userName{
+  font-size: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+  position: absolute;
+  top:20px;
+  left:2%;
+}
+.quotes{
+  font-size: 30px;
+  font-family: 'Bad Script', cursive;
+  position: absolute;
+  bottom:20%;
+  left:2%;
+}
+.ul{
+  width: 98%;
+  margin:10px auto;
+
+}
+.Addbotton{
+  background-color:#8070f2;
+  height: 40px;
+  width: 150px;
+  border-radius: 10px;
+  display:flex;
+  align-items: center;
+  overflow: hidden;
+}
+.Addbotton .fas{
+  font-size:12px;
+}
+.Addbotton a{
+  text-decoration: none;
+  color: black;
+  display: block;
+  font-size: 17px;
+  padding: 5px 10px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.logo{
+  height: 30px;
+  width: 40px;
+  margin-left: 5px;
+  background-color:#4d459e5e;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.viewContent {
+  width: 98%;
+  margin:10px auto;
+  border-radius: 15px;
+  height: 650px;
+}
+
+.inputContainer{
+  width: 98%;
+  margin:10px auto;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.formheader{
+  height:100px;
+  width: 100%;
+  background-color: #e4dafd;
+}
+form{
+  width: 98%;
+  margin: 20px auto;
+
+}
+input[type=text] {
+ border: 2px solid var(--bg-three);
+
+}
+
+/*Rooom Details Page*/
+.room-details{
+  height: 800px;
+  width: 98%;
+  margin: auto;
+  background-color:white;
+}
+.coverphoto{
+  height: 300px;
+  width: 100%;
+  background-color: var(--bg-three);
+  position: relative;
+}
+.coverphoto img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.inputbtn{
+  position: absolute;
+  background-color:# ;
+  padding: 10px 15px;
+  top:2%;
+  cursor: pointer;
+  right: 1%;
+  z-index: 5;
+  color: white;
+  border-radius: 5px;
+}
+.inputbtn .far{
+  color: brown;
+}
+.detailbox{
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.image-container{
+  width: 300px;
+  height:100%;
+}
+.addbtn{
+  width: 96%;
+  margin: auto;
+  margin-top: 10px;
+
+}
+.addbtn .btn{
+    font-size: 1.2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.addbtn .far{
+  color: black;
+  font-size: 20px;
+  margin-right: 5px;
+}
+.images{
+  width: 96%;
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.image-view{
+  height: 100px;
+  width: 140px;
+  margin-bottom: 10px;
+  position: relative;
+
+}
+.image-view a{
+  position: absolute;
+  z-index: 4;
+  left: 10px;
+  display: none;
+  top:10px;
+}
+.image-view .fa-trash{
+  color:#861f37;
+}
+.editinfo{
+  background-color: #456;
+}
+.image-view:hover.image-view a{
+  display: block;
+  position: absolute;
+  z-index: 4;
+}
+.reservationtable{
+  width: 98%;
+  margin: 20px auto;
+}
+#roomid{
+  display: none;
+}
+.image-view img{
+  height: 100px;
+  width: 140px;
+}
+.room-info{
+  flex: 3;
+  height:100%;
+}
+.otherInfo{
+  width: 300px;
+  height:100%;
+  padding-right: 5px;
+}
+.otherInfo li{
+    font-family: 'Dosis', sans-serif;
+    display: block;
+    background-color: rgba(169, 169, 169, 0.092);
+    margin-top: 10px;
+    padding:10px 10px;
+    font-size: 18px;
+    text-align: center;
+}
+.otherInfo .ibtn{
+    margin-top: 10px;
+  font-family: 'Dosis', sans-serif;
+  background-color: rgba(69,39, 369, 0.092);
+}
+
+.col-features .fab{
+    padding-right:10px;
+    color:black
+}
+.prime-features{
+    width: 96%;
+    margin: auto;
+  }
+.col-features ul li{
+    font-family: 'Dosis', sans-serif;
+    display: block;
+    background-color: rgba(169, 169, 169, 0.092);
+    margin-top: 10px;
+    padding:10px 10px;
+    font-size: 18px;
+}
+
+.details{
+  background-color: rgba(169, 169, 169, 0.092);
+  text-align: justify;
+  width: 100%;
+}
+.details p{
+  padding: 10px;
+}
+.modal-header,.modal-footer {
+  border:none;
+}
+
+
+/*Reservation*/
+.reservation-form{
+  width: 98%;
+  margin:20px auto ;
+  border-radius: 10px;
+  background-color:white ;
+  padding-bottom: 20px;
+}
+.reservationtable{
+  width: 98%;
+  margin:20px auto ;
+  border-radius: 10px;
+  background-color:white ;
+  padding: 20px;
+}
+.material-icons{
+  color: white;
+}
+.tableHeader{
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-group-text{
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: capitalize;
+}
+.inner-form{
+  width: 96%;
+  margin:auto ;
+  height: 96%;
+  padding-top:20px;
+}
+.reserv-col{
+  width:98%;
+  margin:auto ;
+  padding-top:20px;
+  display: flex;
+  flex-direction: row;
+}
+.reserv-col a{
+ text-decoration: none;
+ color: black;
+ display: block;
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+.reserv-col .btn{
+  margin-top: 10px;
+  font-family: 'Dosis', sans-serif;
+  background-color: rgba(69,39, 369, 0.092);
+  margin-right: 10px;
+}

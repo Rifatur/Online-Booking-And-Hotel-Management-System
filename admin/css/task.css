@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+.taskcard-details{
+  width: 100%;
+  margin: 1rem auto;
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+}
+.cardheader{
+    height: 40px;
+    background-color: #B9D4DB;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.cardheader span,span.fas{
+  padding-left:.6rem;
+  padding-right:.6rem;
+  color:white;
+}
+.cardcontent{
+  flex: 2;
+}
+.cardcontent .fab{
+  color: #B9D4DB;
+}
+
+.cardcontent ul li{
+    font-family: 'Dosis', sans-serif;
+    display: block;
+    background-color: rgba(139, 149, 269, 0.092);
+    margin-top: 10px;
+    padding:10px 10px;
+    font-size: 18px;
+}
+.cardfooter{
+  height: 40px;
+    background-color: #B9D4DB;
+    width: 100%;
+}
+.cardfooter .far{
+  color: white;
+  font-size: 18px;
+}
+#roomid{
+  display: none;
+}
+ .btn {
+  font-family: 'Didact Gothic', sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
